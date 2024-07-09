@@ -15,5 +15,3 @@ data "aws_eks_cluster" "cluster" {
 data "aws_eks_cluster_auth" "cluster" {
   name = module.eks.cluster_id
 }
-
-# https://chatgpt.com/share/93fbce1c-33fd-46ae-b307-fe2c1c1e1031
